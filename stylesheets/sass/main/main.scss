@@ -5,5 +5,21 @@
 
 // MASTER CONTROLS
 body {
-  background-color: purple;
+  background-color: #DDD;
+  color: black;
 }
+
+.navbar {
+  background-color: #BBB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
