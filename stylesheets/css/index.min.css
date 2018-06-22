@@ -50,17 +50,24 @@ body {
   background-color: #DDD;
   color: black; }
 
+.jumbotron {
+  border-bottom: 1px solid #AAA;
+  border-left: 1px solid #AAA; }
+
 .navbar {
   background-color: #BBB;
-  border-bottom: 2px solid #AAA;
-  border-left: 2px solid #AAA;
-  border-right: 2px solid #AAA;
-  border-radius: 3px; }
+  border-bottom: 1px solid #AAA;
+  border-left: 1px solid #AAA;
+  border-radius: 3px;
+  margin-top: -32.5px;
+  padding: 45px;
+  font-size: 19px; }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-decoration: underline; }
 
 li {
-  display: inline; }
+  display: inline;
+  margin-right: 65px; }
